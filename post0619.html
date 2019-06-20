@@ -36,7 +36,7 @@
             font-size: 18px;
             border: none;
             outline: none;
-            background-color: red;
+            background-color: rgb(67, 50, 161);
             color: white;
             cursor: pointer;
             padding: 15px;
@@ -142,9 +142,9 @@
         </div>
     </header>
 	<div class="header">
-		<div style="padding:7px"">
-			<a style="color:#000; text-decoration: none; font-weight: 600;" href="index.html">
-				&nbsp;&nbsp;< &nbsp;home&nbsp;
+		<div style="padding:5px"">
+			<a style="color:#000; text-decoration: none; font-weight: 500;" href="index.html">
+				&nbsp;&nbsp;< &nbsp;Home&nbsp;
 			</a>
 		</div>
 		<div class="progress-container">
@@ -1895,41 +1895,21 @@
 
     <!-- Theme JavaScript -->
     <script src="js/clean-blog.min.js"></script>
-
     <script>
-        // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function() {scrollFunction()};
-        
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            document.getElementById("myBtn").style.display = "block";
-            } else {
-            document.getElementById("myBtn").style.display = "none";
-            }
-        }
-        
-        // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
-
-    <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+		
+		for (i = 0; i < coll.length; i++) {
+			coll[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var content = this.nextElementSibling;
+			if (content.style.display === "block") {
+				content.style.display = "none";
+			} else {
+				content.style.display = "block";
+			}
+			});
+		}
 	</script>
 
 	<script>
@@ -1937,11 +1917,27 @@
 		window.onscroll = function() {myFunction()};
 		
 		function myFunction() {
+
+			// Show progressbar when user starts scrolling
 			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
 			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
 			var scrolled = (winScroll / height) * 100;
 			document.getElementById("myBar").style.width = scrolled + "%";
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+            } else {
+            document.getElementById("myBtn").style.display = "none";
+            }
 		}
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
 	</script>
 </body>
 
