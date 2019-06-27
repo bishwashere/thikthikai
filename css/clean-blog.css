@@ -10,7 +10,7 @@ body {
 }
 p {
   line-height: 1.5;
-  margin: 30px 0;
+  margin: 25px 0;
 }
 p a {
   text-decoration: underline;
@@ -202,7 +202,7 @@ hr.small {
 .intro-header .post-heading .subheading {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
-  margin: 10px 0 30px;
+  margin: 10px 0 25px;
   font-weight: 600;
 }
 .intro-header .post-heading .meta {
@@ -219,7 +219,7 @@ hr.small {
     font-size: 55px;
   }
   .intro-header .post-heading .subheading {
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .post-preview > a {
@@ -231,8 +231,8 @@ hr.small {
   color: #0085A1;
 }
 .post-preview > a > .post-title {
-  font-size: 30px;
-  margin-top: 30px;
+  font-size: 25px;
+  margin-top: 25px;
   margin-bottom: 10px;
 }
 .post-preview > a > .post-subtitle {
