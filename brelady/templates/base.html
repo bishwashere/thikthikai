@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <!-- START - Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141905431-1"></script>
     <script>
@@ -20,7 +18,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Begining | ThikThikAI - words for thoughts</title>
+    <title>{% block title %}{% endblock %} | ThikThikAI - words for thoughts</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="./../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -64,8 +62,8 @@
                         <a style="color:#ffffff; text-decoration: none; font-weight: 600;" href="./index.html">
                                 < Home
                         </a>
-                        <h1>Chapter 4: **unnmaed**</h1>
-                        <p class="meta">Posted by Bishwas Mishra on June 25, 2019</p>
+                        <h1>{% block chapternumberandname %}{% endblock %}</h1>
+                        <p class="meta">Posted by Bishwas Mishra on {% block postdate %}{% endblock %}</p>
                     </div>
                 </div>
             </div>
@@ -78,21 +76,10 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <p>
-                        <a href = "./chapter3.html">Chapter 3: Begining</a>
+                        {% block previous %}{% endblock %}
                         <hr>
                     </p>
-                    <p>
-                        He slept comfortably on a grass quilt in front of his master’s hut . His shaggy, white, long strands of hair were recently brushed and smoothened, an exhausting process that called for several bouts of whining, whimpering and scurrying back and forth. He was chasing something in his dreams, perhaps a rabbit or a goose, and a soft, guttural growl accompanied the movement of his legs. He seemed to be smiling in spite of that. For all due appearance, an ordinary dog. Brelady, partially hidden by a hut a few dozen meters away and partially hidden by the appearance of the new moon, though knew that he was anything but ordinary. By the virtue of his memories and his master, he was all but the thirteenth elder.
-                    </p>
-                    <p>
-                        Rihati’s governing body was based and centered on the dual basis of reputation and renown. That is, the crux of the bureaucratic and administrative responsibility that naturally is created alongside a dwelling, irrespective of its size, was held by those who had the most standing in that dwelling. In Rihati, this responsibility was divided among the twelve most respected denizens of the valley and that respect was usually derived out of their proficiency with The White Gift. This was what was taught in the Source. It was also taught that as long as one gained mastery over The White Gift and earned the respect of the Mohacans, they had a chance of becoming an elder. But Brealdy had seen that in practicality, since the remaining elders were the ones who chose the replacement, the respect of the Mohacans were not a prerequisite. What was an actual requirement was to be beloved by a majority of the elders. None knew that fact better than Strauss, the master of the dog Brelady was looking at.
-                    </p>
-                    <p>
-                        Brelady knew the dog well and the dog loved her almost as much as he loved his master. She had appeared a few months ago, when the night was the darkest, a small mess of a human bearing gifts. Dog was wary of her at the beginning for she smelled brazen and savage, an entirely novel but alarming olfactory note, but her pats and treats had won him over. She in many ways seemed to desperately need a friend and Dog wanted to be her friend, for she was sweet. Their meetings had turned weekly after a month or so and Dog didn’t mind that at all. He liked her attention. So when she appeared that night with a yak kibble in her hand, Dog ran up to her with no caution and only unbridled joy.
-                    </p>
-                    <p>
-                        Brelady, a year ago, on the day when she had learnt the extent to which the real world was hidden from her, had figured out that the elders were lying to them. The Rules were incomplete and incorrect. The White Gift was limiting and inexhaustive. The Rules were guidelines and not universal laws. As the dog by her feet nibbled on the treat, she remembered Master Farious and his teachings. He had lied outright to everyone of them. All of them had looked to him for guidance and he had served them falsehoods with a smile on his face. She recalled the third law, the law that had begun her journey for the truth. The Law of Renewability, it was named. ’The caster’s body is the only one living matter capable of being a source’. “Lies”, she whispered, her face contorted. She looked at the dog, and a smile appeared on her face as he happily bit into the little amounts of kibble she had managed to obtain. “He wouldn’t lie to her”, she thought as she reached out and placed her palm on the dog’s head.
-                    </p>
+                    {% block content %}{% endblock %}
                     <p>
                         <hr>
                     </p>
@@ -152,7 +139,5 @@
 
     <!-- Theme JavaScript -->
     <script src="./../js/clean-blog.min.js"></script>
-
 </body>
-
 </html>
