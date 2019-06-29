@@ -21,7 +21,12 @@
   </url>
   <url>
     <loc>http://www.thikthikai.com/brelady/chapter4.html</loc>
-    <lastmod>2019-06-14T16:42:35+00:00</lastmod>
+    <lastmod>2019-06-26T16:42:35+00:00</lastmod>
+    <priority>0.64</priority>
+  </url>
+  <url>
+    <loc>http://www.thikthikai.com/brelady/chapter5.html</loc>
+    <lastmod>2019-06-28T16:42:35+00:00</lastmod>
     <priority>0.64</priority>
   </url>
 </urlset>
