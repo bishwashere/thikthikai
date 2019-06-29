@@ -1,9 +1,148 @@
-{% extends "base.html" %}
-{% block title %}Rainy season: Diet and mental health{% endblock %}
-{% block chapternumberandname %}Rainy season: Diet and mental health{% endblock %}
-{% block postdate %}June 29, 2019{% endblock %}
-{% block previous %}<a href = "./post0629.html">Rainy season: Diet and mental health</a>{% endblock %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <style>
+            .header {
+                position: fixed;
+                top: 0;
+                z-index: 1;
+                width: 100%;
+                background-color: #fff;
+                }
+    
+            .header h2 {
+                text-align: center;
+            }
+    
+            .progress-container {
+                width: 100%;
+                height: 5px;
+                background: #ccc;
+            }
+    
+            .progress-bar {
+                height: 5px;
+                background: #4caf50;
+                width: 0%;
+            }
+    
+            #myBtn {
+                display: none;
+                position: fixed;
+                bottom: 20px;
+                right: 30px;
+                z-index: 99;
+                font-size: 18px;
+                border: none;
+                outline: none;
+                background-color: #337ab7;
+                color: white;
+                cursor: pointer;
+                padding: 10px 15px 5px 15px;
+                border-radius: 4px;
+                }
+    
+                #myBtn:hover {
+                background-color: #555;
+                }
+    
+            .collapsible {
+                background-color: #777;
+                color: white;
+                cursor: pointer;
+                padding: 18px;
+                width: 100%;
+                border: none;
+                text-align: left;
+                outline: none;
+            }
+            
+            .active, .collapsible:hover {
+                background-color: #555;
+            }
+        </style>
+    <!-- START - Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141905431-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-141905431-1');
+    </script>
+    <!-- END - Global site tag (gtag.js) - Google Analytics -->
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Rainy season: Diet and mental health | ThikThikAI - words for thoughts</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="./../css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- START - Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141905431-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-141905431-1');
+    </script>
+    <!-- END - Global site tag (gtag.js) - Google Analytics -->
+
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('./../img/post-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Rainy season: Diet and mental health</h1>
+                        <p class="meta">Posted by Bishwas Mishra on June 29, 2019</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header">
+            <div style="padding:5px"">
+                <a style="color:#000; text-decoration: none; font-weight: 500;" href="index.html">
+                    &nbsp;&nbsp;< &nbsp;Home&nbsp;
+                </a>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="myBar"></div>
+            </div>  
+    </div>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <p>
                         Every living thing eats food. Food is the fuel that our bodies require to function. The nutrients in the food we eat and liquids we drink are broken down into simpler compounds. Proteins are converted into amino acids, fats are converted into glycerol and the carbohydrates into sugars[1]. If your sugar consumption exceeds your body's immediate energy needs, glucose converts to glycogen and becomes stored in your liver and muscles. Once these organs reach their capacity to store glycogen, excess glucose first converts to fatty acids and then to triglycerides, which become stored in your adipose tissue, to be used in times of lack of energy in the body. Now,  the food we eat and the liquids we drink affects our whole body; which includes the brain. Therefore, it won't be surprising to know that our habitual consumption of certain foods and liquids i.e., our diet, affects our brain and in turn our mental health too.  This knowledge is giving rise to a concept called "nutritional (or food) psychiatry"[2].
                     </p>
@@ -69,49 +208,61 @@
                         <h3>References:</h3>
                     </p>
                     <p>
-                        1. https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works
+                        1. 
+                        <a href="https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works" target="_blank">https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works</a>
                     </p>
                     <p>
-                        2.https://www.webmd.com/mental-health/news/20150820/food-mental-health#1
+                        2.
+                        <a href="https://www.webmd.com/mental-health/news/20150820/food-mental-health#1" target="_blank">https://www.webmd.com/mental-health/news/20150820/food-mental-health#1</a>
                     </p>
                     <p>
-                        3. https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626
+                        3. 
+                        <a href="https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626" target="_blank">https://www.health.harvard.edu/blog/nutritional-psychiatry-your-brain-on-food-201511168626</a>
                     </p>
                     <p>
-                        4. https://www.healthline.com/health/mood-food-can-what-you-eat-affect-your-happiness#strategies
+                        4. 
+                        <a href="https://www.healthline.com/health/mood-food-can-what-you-eat-affect-your-happiness#strategies" target="_blank">https://www.healthline.com/health/mood-food-can-what-you-eat-affect-your-happiness#strategies</a>
                     </p>
                     <p>
-                        5. So Young Lim, Eun Jin Kim, Arang Kim, Hee Jae Lee, Hyun Jin Choi,2  Soo Jin Yang. (2016). Nutritional Factors Affecting Mental Health.  Clinical Nutritional Reseach, 5(3):143-152. https://doi.org/10.7762/cnr.2016.5.3.143 
+                        5. So Young Lim, Eun Jin Kim, Arang Kim, Hee Jae Lee, Hyun Jin Choi,2  Soo Jin Yang. (2016). Nutritional Factors Affecting Mental Health.  Clinical Nutritional Reseach, 5(3):143-152. 
+                        <a href="https://doi.org/10.7762/cnr.2016.5.3.143 " target="_blank">https://doi.org/10.7762/cnr.2016.5.3.143 </a>
                     </p>
                     <p>
-                        6. https://theconversation.com/why-nutritional-psychiatry-is-the-future-of-mental-health-treatment-92545
+                        6. 
+                        <a href="https://theconversation.com/why-nutritional-psychiatry-is-the-future-of-mental-health-treatment-92545" target="_blank">https://theconversation.com/why-nutritional-psychiatry-is-the-future-of-mental-health-treatment-92545</a>
                     </p>
                     <p>
-                        7. https://www.mentalhealth.org.uk/a-to-z/d/diet-and-mental-health
+                        7. 
+                        <a href="https://www.mentalhealth.org.uk/a-to-z/d/diet-and-mental-health" target="_blank">https://www.mentalhealth.org.uk/a-to-z/d/diet-and-mental-health</a>
                     </p>
                     <p>
-                        8. https://www.health.harvard.edu/mind-and-mood/food-and-mood-is-there-a-connection
+                        8. 
+                        <a href="https://www.health.harvard.edu/mind-and-mood/food-and-mood-is-there-a-connection" target="_blank">https://www.health.harvard.edu/mind-and-mood/food-and-mood-is-there-a-connection</a>
                     </p>
                     <p>
                         9. Wolfgang Marx, Genevieve Moseley, Michael Berk, and Felice Jacka. (2017). Nutritional psychiatry: the present state of the evidence. Proceedings of the Nutrition Society, Page 1 of 10 . doi:10.1017/S0029665117002026 
                     </p>
                     <p>
-                        10. Tarleton EK, Littenberg B, MacLean CD, Kennedy AG, Daley C (2017) Role of magnesium supplementation in the treatment of depression: A randomized clinical trial. PLoS ONE 12(6): e0180067.https://doi.org/10.1371/journal. pone.0180067
+                        10. Tarleton EK, Littenberg B, MacLean CD, Kennedy AG, Daley C (2017) Role of magnesium supplementation in the treatment of depression: A randomized clinical trial. PLoS ONE 12(6): e0180067.
+                        <a href="https://doi.org/10.1371/journal.pone.0180067" target="_blank">https://doi.org/10.1371/journal.pone.0180067</a>
                     </p>
                     <p>
                         11.  Gelinda Deacon, Christine Kettle, David Hayes, Christina Dennis & Joseph Tucci (2015): Omega-3 Polyunsaturated Fatty Acids and the Treatment of Depression, Critical Reviews in Food Science and Nutrition, DOI:10.1080/10408398.2013.876959
                     </p>
                     <p>
-                        12. Nowak G, Siwek M, Dudek D, Zieba A, Pilc A.(2003). Effect of zinc supplementation on antidepressant therapy in unipolar depression: a preliminary placebo-controlled study. Polish Journal of Pharmacology: 55(6):1143-7. Link: https://www.ncbi.nlm.nih.gov/pubmed/14730113
+                        12. Nowak G, Siwek M, Dudek D, Zieba A, Pilc A.(2003). Effect of zinc supplementation on antidepressant therapy in unipolar depression: a preliminary placebo-controlled study. Polish Journal of Pharmacology: 55(6):1143-7. Link: 
+                        <a href="https://www.ncbi.nlm.nih.gov/pubmed/14730113" target="_blank">https://www.ncbi.nlm.nih.gov/pubmed/14730113</a>
                     </p>
                     <p>
-                        13. https://www.healthline.com/health/food-nutrition/foods-that-boost-the-immune-system#papaya
+                        13. 
+                        <a href="https://www.healthline.com/health/food-nutrition/foods-that-boost-the-immune-system#papaya" target="_blank">https://www.healthline.com/health/food-nutrition/foods-that-boost-the-immune-system#papaya</a>
                     </p>
                     <p>
                         14. http://www.actforlibraries.org/how-weather-can-effect-mental-health/
                     </p>
                     <p>
-                        15. https://www.brainmdhealth.com/blog/can-food-eat-affect-mood/
+                        15. 
+                        <a href="https://www.brainmdhealth.com/blog/can-food-eat-affect-mood/" target="_blank">https://www.brainmdhealth.com/blog/can-food-eat-affect-mood/</a>
                     </p>
                     <p>
                         16. Dong, X., Yang, C., Cao, S., Gan, Y., Sun, H., et al. (2015). Tea consumption and the risk of depression: a meta-analysis of observational studies. Australian & New Zealand Journal of Psychiatry, 49(4): 334-345.
@@ -119,4 +270,91 @@
                     <p>
                         17. Munoz, C.X., Johnson, E.C., McKenzie, A.L., Guelinckx, I., Graverholt, G., et al. (2015). Habitual total water intake and dimensions of mood in healthy young women. Appetite, 92:81-86.
                     </p>
-{% endblock %}
+                    <p>
+                        <hr>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Free from above platforms &copy; 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="./../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="./../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="./../js/jqBootstrapValidation.js"></script>
+    <script src="./../js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="./../js/clean-blog.min.js"></script>
+    <script>
+		// When the user scrolls the page, execute myFunction 
+		window.onscroll = function() {myFunction()};
+		
+		function myFunction() {
+
+			// Show progressbar when user starts scrolling
+			var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+			var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+			var scrolled = (winScroll / height) * 100;
+			document.getElementById("myBar").style.width = scrolled + "%";
+
+			// When the user scrolls down 20px from the top of the document, show the button
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+            } else {
+            document.getElementById("myBtn").style.display = "none";
+            }
+		}
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+	</script>
+</body>
+</html>
